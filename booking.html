@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking</title>
+  <style>
+    .body{
+        font-family: Arial, sans-serif;
+        background-color: #f1f3f6;
+    }
+    .header{
+        background-color: #000000;
+        padding: 20px;
+    }
+    .nav{
+        margin-right: 10px;
+        text-decoration: none;
+        color: black;
+    }
+    .main{
+        padding: 20px;
+    }
+    .loss{
+        text-decoration: none;
+       color:white;
+        padding: 0 25px;
+    }
+    .pot{
+      background-color: white;
+    }
+    .kot{
+      color:black;
+    }
+  </style>
+</head>
+<body class = "body">
+  <header class = "header">
+    <nav class = "nav">
+      <a class = "loss" href="home.html">Home</a>
+      <a class = "loss" href="about.html">About Us</a>
+      <a class = "loss" href="packages.html">Packages</a>
+      <a class = "loss" href="booking.html">Booking</a>
+    </nav>
+  </header>
+  <main class = "main">
+    <h1 class = "kot">Booking</h1>
+    <br>
+    <div>
+      <img src = "lene.jpg" align = "right" width = 600 height = 300>
+    <div class = "pot">
+      <div><h2>Plane Booking : </h2></div>
+    <br>
+      <form>
+      <div>
+        <label for = "name">Name:</label>
+      <input type = "text"name = "text">
+    </div>
+    <br>
+    <div>
+      <label for = "age">Number of People : </label>
+      <input type = "text" name = "people">
+    </div>
+       <br>
+       <div>
+      <label for="type">Choose Class :</label>
+      <select id="type" name="type">
+        <option value="airplane">First Class</option>
+        <option value="airplane">Business Class</option>
+        <option value="airplane">Economy Class</option>
+      </select>
+      </div>
+      <br>
+      <div>
+      <label for="package">Packages:</label>
+      <select id="package" name="package">
+        <option value="citytour">Pokhara To Kathmandu</option>
+        <option value="airportshuttle">Kathmandu To Pokhara</option>
+        <option value="weddingcar">Pokhara To Nepalgunj</option>
+        <option value="businesstrip">Kathmandu To Nepalgunj</option>
+        <option value="vacationpackage">Pokhara To Biratnagar</option>
+        <option value="businessclass">Kathmandu To Biratnagar</option>
+      </select>
+      </div>
+      <br>
+      <div>
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date">
+      </div>
+      <br>
+      <div>
+      <input type="submit" value="Book">
+      </div>
+    </form>
+    </div>
+    </div>
+    <br> <!---->
+
+    <div>
+      <img src = "bus1.jpg" align = "right" width = 600 height = 300>
+      <div class = "pot">
+    <div><h2>Bus Booking : </h2></div>
+    <br>
+      <form>
+      <div>
+        <label for = "name">Name:</label>
+      <input type = "text"name = "text">
+    </div>
+    <br>
+    <div>
+      <label for = "age">Number of People : </label>
+      <input type = "text" name = "people">
+    </div>
+       <br>
+       <div>
+      <label for="type">Choose Seat :</label>
+      <select id="type" name="type">
+        <option value="bus">Left First</option>
+        <option value="bus">Left Back</option>
+        <option value="bus">Left Middle</option>
+        <option value="bus">Right First</option>
+        <option value="bus">Right Back</option>
+        <option value="bus">Right Middle</option>
+      </select>
+      </div>
+      <br>
+      <div>
+      <label for="package">Packages:</label>
+      <select id="package" name="package">
+        <option value="citytour">Pokhara To Kathmandu</option>
+        <option value="airportshuttle">Kathmandu To Pokhara</option>
+        <option value="weddingcar">Pokhara To Nepalgunj</option>
+        <option value="businesstrip">Kathmandu To Nepalgunj</option>
+        <option value="vacationpackage">Pokhara To Biratnagar</option>
+        <option value="businessclass">Kathmandu To Biratnagar</option>
+      </select>
+      </div>
+      <br>
+      <div>
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date">
+      </div>
+      <br>
+      <div>
+      <input type="submit" value="Book">
+      </div>
+    </form>
+    </div>
+    </div>
+    <br><!---->
+    <div>
+      <img src = "car2.jpg" align = "right" width = 600 height = 300>
+      <div class = "pot">
+    <div><h2>Car Booking : </h2></div>
+    <br>
+      <form>
+      <div>
+        <label for = "name">Name:</label>
+      <input type = "text"name = "text">
+    </div>
+    <br>
+    <div>
+      <label for = "age">Number of People : </label>
+      <input type = "text" name = "people">
+    </div>
+       <br>
+       <div>
+      <label for="type">Choose Car:</label>
+      <select id="type" name="type">
+        <option value="car">Bugatti Chiron</option>
+        <option value="car">Tesla Model 3</option>
+        <option value="car">Lamborghini</option>
+        <option value="car">Rolls Royce</option>
+        <option value="car">Uber</option>
+      </select>
+      </div>
+      <br>
+      <div>
+      <label for="package">Packages:</label>
+      <select id="package" name="package">
+        <option value="citytour">Pokhara City</option>
+        <option value="airportshuttle">Kathmandu City</option>
+        <option value="weddingcar">Butwal City</option>
+        <option value="businesstrip">Pokhara To Syangja</option>
+        <option value="vacationpackage">Pokhara To Butwal</option>
+        <option value="businessclass">Kathmandu To Biratnagar</option>
+      </select>
+      </div>
+      <br>
+      <div>
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date">
+      </div>
+      <br>
+      <div>
+      <input type="submit" value="Book">
+      </div>
+    </form>
+    </div>
+    </div>
+  </main>
+</body>
+</html>
+
